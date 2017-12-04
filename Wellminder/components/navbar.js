@@ -13,6 +13,7 @@ export default class Nav extends Component {
     this.setState({ showMenu: !this.state.showMenu })
     console.log(this.state.showMenu);
     if(this.state.showMenu) {
+      console.log('booyah');
       return (
         <View>
         <Text>Booyah</Text>

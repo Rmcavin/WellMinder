@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, Button, Image } from 'react-native';
+import { StyleSheet, Text, ScrollView, View, Button, Image } from 'react-native';
 import Nav from './components/navbar';
 import Quiz from './components/quiz';
 import Dashboard from './components/dashboard';
@@ -9,13 +9,13 @@ import Landing from './components/landingpage';
 class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <ScrollView style={styles.container}>
         <Nav />
         <Quiz />
         <Dashboard />
         <Preferences />
         <Landing />
-      </View>
+      </ScrollView>
     );
   }
 }
