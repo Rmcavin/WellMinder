@@ -29,7 +29,7 @@ export default class Nav extends Component {
       <View>
         <View style={{ paddingTop: 24 }}>
           <Header
-            leftComponent={ <Text style={ styles.headerText }>Wellminder</Text> }
+            leftComponent={ <Text style={ styles.headerText }>WellMinder</Text> }
             rightComponent={ <Icon
                                 name='menu'
                                 color= '#ffffff'

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Alert, Image } from 'react-native';
+import { path } from 'd3-path'
 
 export default class Dashboard extends Component {
   render() {
