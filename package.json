@@ -1,0 +1,24 @@
+{
+  "name": "wellminder",
+  "version": "1.0.0",
+  "description": "A mobile application that tracks and determines patterns between wellness factors so users can work towards positive health choices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rmcavin/WellMinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rmcavin/WellMinder/issues"
+  },
+  "homepage": "https://github.com/Rmcavin/WellMinder#readme",
+  "dependencies": {
+    "d3": "^4.12.0",
+    "d3-legend": "^1.0.0",
+    "d3-shape": "^1.2.0"
+  }
+}

@@ -30,5 +30,3 @@ let testData = [
   {id: 28, date: "2018-01-29T06:00:00.000Z", sleep: 1, diet: 1, physical: 2, emotional: 5, social: 3, occupational: 2, spiritual: 3, intellectual: 5},
   {id: 29, date: "2018-01-30T06:00:00.000Z", sleep: 3, diet: 1, physical: 2, emotional: 5, social: 4, occupational: 2, spiritual: 3, intellectual: 5},
   {id: 30, date: "2018-01-31T06:00:00.000Z", sleep: 3, diet: 1, physical: 3, emotional: 3, social: 4, occupational: 2, spiritual: 4, intellectual: 3}]
-
-module.exports = testData
