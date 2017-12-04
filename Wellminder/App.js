@@ -130,7 +130,7 @@ class Quiz extends Component {
 const quizStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'skyblue',
+    backgroundColor: '#00bcd4',
     padding: 20,
   },
   button: {
@@ -145,7 +145,7 @@ const quizStyles = StyleSheet.create({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "skyblue",
+    backgroundColor: "#00bcd4",
     alignItems: "center",
     justifyContent: "center",
   },
